@@ -9,13 +9,20 @@ const AddCaloriesPage = () => {
   const [selectedFood, setSelectedFood] = useState<string | null>(null);
   const [servingSize, setServingSize] = useState(1);
   const [foodData, setFoodData] = useState<any | null>(null);
+  const [alternativeIngredients, setAlternativeIngredients] = useState<any[]>([]);
   const { addCalories, addFoodToLog } = useCalorieContext();
 
   const handleFoodSelect = async (food: string) => {
     setSelectedFood(food);
     try {
       const response = await axios.post('http://localhost:4000/api/nutrition', { query: food });
-      setFoodData(response.data[0]);
+      console.log('Response from backend:', response.data);
+      if (response.data.combinedResults && response.data.combinedResults.length > 0) {
+        setFoodData(response.data.combinedResults[0]);
+        setAlternativeIngredients(response.data.alternatives || []);
+      } else {
+        console.error('No combinedResults in response:', response.data);
+      }
     } catch (error) {
       console.error('Error fetching nutritional data:', error);
     }
@@ -63,6 +70,18 @@ const AddCaloriesPage = () => {
           <button onClick={() => handleAddFood(selectedFood)} className="add-button">
             Add to Total
           </button>
+          {alternativeIngredients.length > 0 && (
+            <div className="alternative-ingredients">
+              <h3>Healthier Alternatives:</h3>
+              <ul>
+                {alternativeIngredients.map((alt, index) => (
+                  <li key={index}>
+                    {alt.alternative} is a healthier alternative for {alt.ingredient}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       )}
 
@@ -123,6 +142,21 @@ const AddCaloriesPage = () => {
 
         .home-link:hover {
           color: #0073e6;
+        }
+
+        .alternative-ingredients {
+          margin-top: 1rem;
+          font-size: 1.2rem;
+          color: #555;
+        }
+
+        .alternative-ingredients ul {
+          list-style-type: none;
+          padding: 0;
+        }
+
+        .alternative-ingredients li {
+          margin: 0.5rem 0;
         }
       `}</style>
     </div>
