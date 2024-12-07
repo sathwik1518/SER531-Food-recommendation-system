@@ -26,11 +26,11 @@ app.post('/api/nutrition', async (req, res) => {
   `;
 
   const sparqlQueryIngredients = `
-    PREFIX deliverable2: <http://www.semanticweb.org/pooja/ontologies/2024/10/deliverable2#>
+    PREFIX ex: <http://www.semanticweb.org/pooja/ontologies/2024/10/deliverable2#>
     SELECT ?ingredient
     WHERE {
-      ?foodItem a deliverable2:FoodItem ;
-                deliverable2:hasIngredient ?ingredient .
+      ?foodItem a ex:FoodItem ;
+                ex:hasIngredient ?ingredient .
       FILTER regex(str(?foodItem), "${query}", "i")
     }
   `;
@@ -48,7 +48,17 @@ app.post('/api/nutrition', async (req, res) => {
     }
   `;
 
+  const sparqlQueryIngredientAlternatives = (ingredient) => `
+    PREFIX ex: <http://www.semanticweb.org/pooja/ontologies/2024/10/deliverable2#>
+    SELECT ?alternative
+    WHERE {
+      ?ingredient ex:hasAlternative ?alternative .
+      FILTER regex(str(?ingredient), "${ingredient}", "i")
+    }
+  `;
+
   try {
+    console.log('Fetching direct nutritional values for query:', query);
     let response = await axios.post(
       GRAPHDB_ENDPOINT,
       `query=${encodeURIComponent(sparqlQueryDirect)}`,
@@ -58,74 +68,131 @@ app.post('/api/nutrition', async (req, res) => {
         },
       }
     );
+    console.log('Direct nutritional values response:', response.data);
 
-    if (response.data.results.bindings.length > 0) {
-      const results = response.data.results.bindings.map(binding => ({
-        foodItem: binding.foodItem.value,
-        calories: binding.calories.value,
-        carbohydrates: binding.carbohydrates.value,
-        fat: binding.fat.value,
-        protein: binding.protein.value,
-      }));
-      return res.json(results);
-    }
+    const results = response.data.results.bindings.map(binding => ({
+      foodItem: binding.foodItem.value,
+      calories: binding.calories.value,
+      carbohydrates: binding.carbohydrates.value,
+      fat: binding.fat.value,
+      protein: binding.protein.value,
+    }));
 
-    response = await axios.post(
-      GRAPHDB_ENDPOINT,
-      `query=${encodeURIComponent(sparqlQueryIngredients)}`,
-      {
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-      }
-    );
+    let ingredients = [];
 
-    const ingredients = response.data.results.bindings.map(binding => binding.ingredient.value);
+    if (results.length === 0) {
+      console.log('No direct nutritional values found, fetching ingredients for query:', query);
+      response = await axios.post(
+        GRAPHDB_ENDPOINT,
+        `query=${encodeURIComponent(sparqlQueryIngredients)}`,
+        {
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+        }
+      );
+      console.log('Ingredients response:', response.data);
 
-    let totalCalories = 0;
-    let totalCarbohydrates = 0;
-    let totalFat = 0;
-    let totalProtein = 0;
+      ingredients = response.data.results.bindings.map(binding => binding.ingredient.value);
 
-    for (const ingredient of ingredients) {
-      const ingredientName = ingredient.split('#')[1];
-      const ingredientWords = ingredientName.split('_');
+      let totalCalories = 0;
+      let totalCarbohydrates = 0;
+      let totalFat = 0;
+      let totalProtein = 0;
 
-      let ingredientFound = false;
-      for (const word of ingredientWords.reverse()) {
-        const ingredientResponse = await axios.post(
+      for (const ingredient of ingredients) {
+        const ingredientName = ingredient.split('#')[1];
+
+        console.log('Fetching nutritional values for ingredient:', ingredientName);
+        let ingredientResponse = await axios.post(
           GRAPHDB_ENDPOINT,
-          `query=${encodeURIComponent(sparqlQueryIngredientNutrition(word))}`,
+          `query=${encodeURIComponent(sparqlQueryIngredientNutrition(ingredientName))}`,
           {
             headers: {
               'Content-Type': 'application/x-www-form-urlencoded',
             },
           }
         );
+        console.log('Nutritional values response for ingredient:', ingredientName, ingredientResponse.data);
 
-        const ingredientData = ingredientResponse.data.results.bindings[0];
+        let ingredientData = ingredientResponse.data.results.bindings[0];
         if (ingredientData) {
           totalCalories += parseFloat(ingredientData.calories.value);
           totalCarbohydrates += parseFloat(ingredientData.carbohydrates.value);
           totalFat += parseFloat(ingredientData.fat.value);
           totalProtein += parseFloat(ingredientData.protein.value);
-          ingredientFound = true;
-          break;
+          continue;
+        }
+
+        const ingredientWords = ingredientName.split('_');
+        let ingredientFound = false;
+        for (const word of ingredientWords.reverse()) {
+          console.log('Fetching nutritional values for partial match word:', word);
+          ingredientResponse = await axios.post(
+            GRAPHDB_ENDPOINT,
+            `query=${encodeURIComponent(sparqlQueryIngredientNutrition(word))}`,
+            {
+              headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+              },
+            }
+          );
+          console.log('Nutritional values response for partial match word:', word, ingredientResponse.data);
+
+          ingredientData = ingredientResponse.data.results.bindings[0];
+          if (ingredientData) {
+            totalCalories += parseFloat(ingredientData.calories.value);
+            totalCarbohydrates += parseFloat(ingredientData.carbohydrates.value);
+            totalFat += parseFloat(ingredientData.fat.value);
+            totalProtein += parseFloat(ingredientData.protein.value);
+            ingredientFound = true;
+            break;
+          }
+        }
+
+        if (!ingredientFound) {
+          console.warn(`Nutritional data not found for ingredient: ${ingredientName}`);
         }
       }
 
-      if (!ingredientFound) {
-        console.warn(`Nutritional data not found for ingredient: ${ingredientName}`);
+      results.push({
+        foodItem: query,
+        calories: totalCalories,
+        carbohydrates: totalCarbohydrates,
+        fat: totalFat,
+        protein: totalProtein,
+      });
+    }
+
+    const alternativeIngredients = [];
+    if (ingredients.length > 0) {
+      for (const ingredient of ingredients) {
+        const ingredientName = ingredient.split('#')[1];
+        console.log('Fetching alternatives for ingredient:', ingredientName);
+        const alternativeResponse = await axios.post(
+          GRAPHDB_ENDPOINT,
+          `query=${encodeURIComponent(sparqlQueryIngredientAlternatives(ingredientName))}`,
+          {
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded',
+            },
+          }
+        );
+        console.log('Alternatives response for ingredient:', ingredientName, alternativeResponse.data);
+
+        const alternatives = alternativeResponse.data.results.bindings.map(binding => ({
+          ingredient: ingredientName,
+          alternative: binding.alternative.value.split('#')[1],
+        }));
+
+        alternativeIngredients.push(...alternatives);
       }
     }
 
-    res.json([{
-      foodItem: query,
-      calories: totalCalories,
-      carbohydrates: totalCarbohydrates,
-      fat: totalFat,
-      protein: totalProtein,
-    }]);
+    console.log('Results:', results);
+    console.log('Alternative Ingredients:', alternativeIngredients);
+
+    res.json({ combinedResults: results, alternatives: alternativeIngredients });
   } catch (error) {
     console.error('Error fetching nutritional data:', error.response ? error.response.data : error.message);
     res.status(500).json({ error: 'Failed to fetch nutritional data' });
