@@ -1,0 +1,3661 @@
+@prefix ex: <http://www.semanticweb.org/pooja/ontologies/2024/10/deliverable2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Food_3_teaspoons_sugar a ex:Food ;
+    ex:hasCalories "50" ;
+    ex:hasCarbohydrateContent "12" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "12" .
+
+ex:Food_9__diam__pie a ex:Food ;
+    ex:hasCalories "330" ;
+    ex:hasCarbohydrateContent "53" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "13" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "11" ;
+    ex:hasWeight "135" .
+
+ex:Food_Almonds a ex:Food ;
+    ex:hasCalories "425" ;
+    ex:hasCarbohydrateContent "13" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "38" ;
+    ex:hasFiberContent "1.8" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "13" ;
+    ex:hasSaturatedFatContent "28" ;
+    ex:hasWeight "70" .
+
+ex:Food_Apple_betty a ex:Food ;
+    ex:hasCalories "150" ;
+    ex:hasCarbohydrateContent "29" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "4" ;
+    ex:hasFiberContent "0.5" ;
+    ex:hasMeasure "1 serving" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Apple_juice_canned a ex:Food ;
+    ex:hasCalories "125" ;
+    ex:hasCarbohydrateContent "34" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "250" .
+
+ex:Food_Apple_vinegar a ex:Food ;
+    ex:hasCalories "14" ;
+    ex:hasCarbohydrateContent "3" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1/3 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Apples__raw a ex:Food ;
+    ex:hasCalories "70" ;
+    ex:hasCarbohydrateContent "18" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 med" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "130" .
+
+ex:Food_Apricots a ex:Food ;
+    ex:hasCalories "220" ;
+    ex:hasCarbohydrateContent "57" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "250" .
+
+ex:Food_Artichoke a ex:Food ;
+    ex:hasCalories "8-44" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1 large" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "100" .
+
+ex:Food_Asparagus a ex:Food ;
+    ex:hasCalories "18" ;
+    ex:hasCarbohydrateContent "3" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.5" ;
+    ex:hasMeasure "6 spears" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "96" .
+
+ex:Food_Avocado a ex:Food ;
+    ex:hasCalories "185" ;
+    ex:hasCarbohydrateContent "6" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "18" ;
+    ex:hasFiberContent "1.80" ;
+    ex:hasMeasure "1/2 large" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "12" ;
+    ex:hasWeight "108" .
+
+ex:Food_Bacon a ex:Food ;
+    ex:hasCalories "95" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "8" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2 slices" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "7" ;
+    ex:hasWeight "16" .
+
+ex:Food_Baked_with_cheese a ex:Food ;
+    ex:hasCalories "475" ;
+    ex:hasCarbohydrateContent "44" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "25" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "18" ;
+    ex:hasSaturatedFatContent "24" ;
+    ex:hasWeight "220" .
+
+ex:Food_Banana a ex:Food ;
+    ex:hasCalories "85" ;
+    ex:hasCarbohydrateContent "23" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.9" ;
+    ex:hasMeasure "1 med." ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "150" .
+
+ex:Food_Bean_soups a ex:Food ;
+    ex:hasCalories "190" ;
+    ex:hasCarbohydrateContent "30" ;
+    ex:hasCategory "Soups" ;
+    ex:hasFatContent "5" ;
+    ex:hasFiberContent "0.60" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "8" ;
+    ex:hasSaturatedFatContent "4" ;
+    ex:hasWeight "250" .
+
+ex:Food_Bean_sprouts a ex:Food ;
+    ex:hasCalories "17" ;
+    ex:hasCarbohydrateContent "3" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.3" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "50" .
+
+ex:Food_Beans a ex:Food ;
+    ex:hasCalories "25" ;
+    ex:hasCarbohydrateContent "6" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.8" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "125" .
+
+ex:Food_Beef a ex:Food ;
+    ex:hasCalories "245" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "16" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "23" ;
+    ex:hasSaturatedFatContent "15" ;
+    ex:hasWeight "85" .
+
+ex:Food_Beef_soup a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "11" ;
+    ex:hasCategory "Soups" ;
+    ex:hasFatContent "4" ;
+    ex:hasFiberContent "0.50" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "6" ;
+    ex:hasSaturatedFatContent "4" ;
+    ex:hasWeight "250" .
+
+ex:Food_Beer a ex:Food ;
+    ex:hasCalories "228" ;
+    ex:hasCarbohydrateContent "8" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2 cups" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "480" .
+
+ex:Food_Beet_greens a ex:Food ;
+    ex:hasCalories "27" ;
+    ex:hasCarbohydrateContent "6" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.4" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Beetroots a ex:Food ;
+    ex:hasCalories "1" ;
+    ex:hasCarbohydrateContent "0.80" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "12" ;
+    ex:hasSaturatedFatContent "NaN"^^xsd:double ;
+    ex:hasWeight "165" .
+
+ex:Food_Biscuits a ex:Food ;
+    ex:hasCalories "130" ;
+    ex:hasCarbohydrateContent "18" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "4" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "38" .
+
+ex:Food_Blackberries a ex:Food ;
+    ex:hasCalories "85" ;
+    ex:hasCarbohydrateContent "19" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "6.60" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "144" .
+
+ex:Food_Blueberries a ex:Food ;
+    ex:hasCalories "245" ;
+    ex:hasCarbohydrateContent "65" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "250" .
+
+ex:Food_Bouillon a ex:Food ;
+    ex:hasCalories "24" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Soups" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "240" .
+
+ex:Food_Bran_flakes a ex:Food ;
+    ex:hasCalories "117" ;
+    ex:hasCarbohydrateContent "32" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.10" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "25" .
+
+ex:Food_Brazil_nuts a ex:Food ;
+    ex:hasCalories "457" ;
+    ex:hasCarbohydrateContent "7" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "47" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "10" ;
+    ex:hasSaturatedFatContent "31" ;
+    ex:hasWeight "70" .
+
+ex:Food_Bread__cracked_wheat a ex:Food ;
+    ex:hasCalories "60" ;
+    ex:hasCarbohydrateContent "12" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0.10" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "1" ;
+    ex:hasWeight "23" .
+
+ex:Food_Bread_pudding a ex:Food ;
+    ex:hasCalories "374" ;
+    ex:hasCarbohydrateContent "56" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "12" ;
+    ex:hasFiberContent "0.20" ;
+    ex:hasMeasure "3/4 cup" ;
+    ex:hasProteinContent "11" ;
+    ex:hasSaturatedFatContent "11" ;
+    ex:hasWeight "200" .
+
+ex:Food_Broccoli a ex:Food ;
+    ex:hasCalories "45" ;
+    ex:hasCarbohydrateContent "8" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.9" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "150" .
+
+ex:Food_Brown__firm_packed__dark_sugar a ex:Food ;
+    ex:hasCalories "815" ;
+    ex:hasCarbohydrateContent "210" ;
+    ex:hasCategory "Jams, Jellies" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "220" .
+
+ex:Food_Brussels_sprouts a ex:Food ;
+    ex:hasCalories "60" ;
+    ex:hasCarbohydrateContent "12" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.7" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "6" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "130" .
+
+ex:Food_Butter a ex:Food ;
+    ex:hasCalories "100",
+        "113" ;
+    ex:hasCarbohydrateContent "118",
+        "t" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "11",
+        "115" ;
+    ex:hasFiberContent "0",
+        "117" ;
+    ex:hasMeasure "1/2 cup",
+        "1/4 lb.",
+        "1T." ;
+    ex:hasProteinContent "114",
+        "t" ;
+    ex:hasSaturatedFatContent "10",
+        "116" ;
+    ex:hasWeight "112",
+        "14" .
+
+ex:Food_Buttermilk a ex:Food ;
+    ex:hasCalories "127" ;
+    ex:hasCarbohydrateContent "13" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "5" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "9" ;
+    ex:hasSaturatedFatContent "4" ;
+    ex:hasWeight "246" .
+
+ex:Food_Cakes a ex:Food ;
+    ex:hasCalories "110" ;
+    ex:hasCarbohydrateContent "23" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "40" .
+
+ex:Food_Candied a ex:Food ;
+    ex:hasCalories "235" ;
+    ex:hasCarbohydrateContent "80" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "6" ;
+    ex:hasFiberContent "1.5" ;
+    ex:hasMeasure "1 med." ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "5" ;
+    ex:hasWeight "175" .
+
+ex:Food_Candy a ex:Food ;
+    ex:hasCalories "104" ;
+    ex:hasCarbohydrateContent "19" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "3" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "5" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "25" .
+
+ex:Food_Cane_Syrup a ex:Food ;
+    ex:hasCalories "50" ;
+    ex:hasCarbohydrateContent "13" ;
+    ex:hasCategory "Jams, Jellies" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "20" .
+
+ex:Food_Cantaloupe a ex:Food ;
+    ex:hasCalories "40" ;
+    ex:hasCarbohydrateContent "9" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2.20" ;
+    ex:hasMeasure "1/2 med." ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "380" .
+
+ex:Food_Carbonated_drinks_Artificially_sweetened a ex:Food ;
+    ex:hasCalories "0" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "12 oz." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "346" .
+
+ex:Food_Carrots a ex:Food ;
+    ex:hasCalories "45" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.9" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "150" .
+
+ex:Food_Cashews a ex:Food ;
+    ex:hasCalories "392" ;
+    ex:hasCarbohydrateContent "20" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "32" ;
+    ex:hasFiberContent "0.9" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "12" ;
+    ex:hasSaturatedFatContent "28" ;
+    ex:hasWeight "70" .
+
+ex:Food_Cauliflower a ex:Food ;
+    ex:hasCalories "30" ;
+    ex:hasCarbohydrateContent "6" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "120" .
+
+ex:Food_Celery a ex:Food ;
+    ex:hasCalories "20" ;
+    ex:hasCarbohydrateContent "4" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Chard_steamed a ex:Food ;
+    ex:hasCalories "30" ;
+    ex:hasCarbohydrateContent "7" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.4" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "150" .
+
+ex:Food_Cheddar a ex:Food ;
+    ex:hasCalories "70" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "6" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1-in. cube" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "5" ;
+    ex:hasWeight "17" .
+
+ex:Food_Cheddar__grated_cup a ex:Food ;
+    ex:hasCalories "226" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "19" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "14" ;
+    ex:hasSaturatedFatContent "17" ;
+    ex:hasWeight "56" .
+
+ex:Food_Cheese a ex:Food ;
+    ex:hasCalories "240" ;
+    ex:hasCarbohydrateContent "6" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "11" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "30" ;
+    ex:hasSaturatedFatContent "10" ;
+    ex:hasWeight "225" .
+
+ex:Food_Cherries a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "26" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "257" .
+
+ex:Food_Cherry_Pie a ex:Food ;
+    ex:hasCalories "340" ;
+    ex:hasCarbohydrateContent "55" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "13" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "11" ;
+    ex:hasWeight "135" .
+
+ex:Food_Chicken_livers__fried a ex:Food ;
+    ex:hasCalories "140" ;
+    ex:hasCarbohydrateContent "2.30" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "14" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 med." ;
+    ex:hasProteinContent "22" ;
+    ex:hasSaturatedFatContent "12" ;
+    ex:hasWeight "100" .
+
+ex:Food_Chocolate_creams a ex:Food ;
+    ex:hasCalories "130" ;
+    ex:hasCarbohydrateContent "24" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "4" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "4" ;
+    ex:hasWeight "30" .
+
+ex:Food_Chocolate_fudge a ex:Food ;
+    ex:hasCalories "420" ;
+    ex:hasCarbohydrateContent "70" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "14" ;
+    ex:hasFiberContent "0.3" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "12" ;
+    ex:hasWeight "120" .
+
+ex:Food_Chocolate_syrup a ex:Food ;
+    ex:hasCalories "80" ;
+    ex:hasCarbohydrateContent "22" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2 T." ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "40" .
+
+ex:Food_Clam_chowder a ex:Food ;
+    ex:hasCalories "85" ;
+    ex:hasCarbohydrateContent "12" ;
+    ex:hasCategory "Soups" ;
+    ex:hasFatContent "2" ;
+    ex:hasFiberContent "0.50" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "8" ;
+    ex:hasWeight "255" .
+
+ex:Food_Clams a ex:Food ;
+    ex:hasCalories "87" ;
+    ex:hasCarbohydrateContent "2" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "12" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "85" .
+
+ex:Food_Club_soda a ex:Food ;
+    ex:hasCalories "0" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "12 oz." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "346" .
+
+ex:Food_Cocoa a ex:Food ;
+    ex:hasCalories "235" ;
+    ex:hasCarbohydrateContent "26" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "11" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "8" ;
+    ex:hasSaturatedFatContent "10" ;
+    ex:hasWeight "252" .
+
+ex:Food_Cod a ex:Food ;
+    ex:hasCalories "170" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "5" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 1/2 oz." ;
+    ex:hasProteinContent "28" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Coffee a ex:Food ;
+    ex:hasCalories "3" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "230" .
+
+ex:Food_Cola_drinks a ex:Food ;
+    ex:hasCalories "137" ;
+    ex:hasCarbohydrateContent "38" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "12 oz." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "346" .
+
+ex:Food_Collards a ex:Food ;
+    ex:hasCalories "51" ;
+    ex:hasCarbohydrateContent "8" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "150" .
+
+ex:Food_Converted a ex:Food ;
+    ex:hasCalories "677" ;
+    ex:hasCarbohydrateContent "142" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.4" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "14" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "187" .
+
+ex:Food_Corn a ex:Food ;
+    ex:hasCalories "92" ;
+    ex:hasCarbohydrateContent "21" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0.8" ;
+    ex:hasMeasure "1 ear" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "100" .
+
+ex:Food_Corn_bread_ground_meal a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "15" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "4" ;
+    ex:hasFiberContent "0.30" ;
+    ex:hasMeasure "1 serving" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "2" ;
+    ex:hasWeight "50" .
+
+ex:Food_Corn_grits_cooked a ex:Food ;
+    ex:hasCalories "120" ;
+    ex:hasCarbohydrateContent "27" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "8" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "242" .
+
+ex:Food_Corn_meal a ex:Food ;
+    ex:hasCalories "360" ;
+    ex:hasCarbohydrateContent "74" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "4" ;
+    ex:hasFiberContent "1.6" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "9" ;
+    ex:hasSaturatedFatContent "2" ;
+    ex:hasWeight "118" .
+
+ex:Food_Corn_oil a ex:Food ;
+    ex:hasCalories "125" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "14" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "5" ;
+    ex:hasWeight "14" .
+
+ex:Food_Corned_beef a ex:Food ;
+    ex:hasCalories "185" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "22" ;
+    ex:hasSaturatedFatContent "9" ;
+    ex:hasWeight "85" .
+
+ex:Food_Corned_beef_hash_Dried a ex:Food ;
+    ex:hasCalories "115" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "4" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2 oz." ;
+    ex:hasProteinContent "19" ;
+    ex:hasSaturatedFatContent "4" ;
+    ex:hasWeight "56" .
+
+ex:Food_Corned_beef_hash_Stew a ex:Food ;
+    ex:hasCalories "185" ;
+    ex:hasCarbohydrateContent "15" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "15" ;
+    ex:hasSaturatedFatContent "9" ;
+    ex:hasWeight "235" .
+
+ex:Food_Corned_beef_hash_canned a ex:Food ;
+    ex:hasCalories "120" ;
+    ex:hasCarbohydrateContent "6" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "8" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "12" ;
+    ex:hasSaturatedFatContent "7" ;
+    ex:hasWeight "85" .
+
+ex:Food_Cornflakes a ex:Food ;
+    ex:hasCalories "110" ;
+    ex:hasCarbohydrateContent "25" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "25" .
+
+ex:Food_Cows__milk a ex:Food ;
+    ex:hasCalories "660" ;
+    ex:hasCarbohydrateContent "48" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "40" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 qt." ;
+    ex:hasProteinContent "32" ;
+    ex:hasSaturatedFatContent "36" ;
+    ex:hasWeight "976" .
+
+ex:Food_Crab_meat a ex:Food ;
+    ex:hasCalories "90" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "2" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "14" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "85" .
+
+ex:Food_Crackers a ex:Food ;
+    ex:hasCalories "55" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "2 med." ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "14" .
+
+ex:Food_Cranberry_sauce_sweetened a ex:Food ;
+    ex:hasCalories "530" ;
+    ex:hasCarbohydrateContent "142" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "277" .
+
+ex:Food_Cream_cheese a ex:Food ;
+    ex:hasCalories "105" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "11" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 oz." ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "10" ;
+    ex:hasWeight "28" .
+
+ex:Food_Cream_or_half_and_half a ex:Food ;
+    ex:hasCalories "170" ;
+    ex:hasCarbohydrateContent "5" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "15" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "13" ;
+    ex:hasWeight "120" .
+
+ex:Food_Cream_soups a ex:Food ;
+    ex:hasCalories "200" ;
+    ex:hasCarbohydrateContent "18" ;
+    ex:hasCategory "Soups" ;
+    ex:hasFatContent "12" ;
+    ex:hasFiberContent "1.20" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "7" ;
+    ex:hasSaturatedFatContent "11" ;
+    ex:hasWeight "255" .
+
+ex:Food_Cucumbers a ex:Food ;
+    ex:hasCalories "6" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0.2" ;
+    ex:hasMeasure "8" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "50" .
+
+ex:Food_Cupcake a ex:Food ;
+    ex:hasCalories "160" ;
+    ex:hasCarbohydrateContent "31" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "3" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "2" ;
+    ex:hasWeight "50" .
+
+ex:Food_Custard a ex:Food ;
+    ex:hasCalories "265",
+        "285" ;
+    ex:hasCarbohydrateContent "28",
+        "34" ;
+    ex:hasCategory "Dairy products",
+        "Desserts, sweets" ;
+    ex:hasFatContent "11",
+        "14" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup",
+        "1 slice" ;
+    ex:hasProteinContent "13",
+        "7" ;
+    ex:hasSaturatedFatContent "10",
+        "11" ;
+    ex:hasWeight "130",
+        "248" .
+
+ex:Food_Dandelion_greens a ex:Food ;
+    ex:hasCalories "80" ;
+    ex:hasCarbohydrateContent "16" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "3.2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "180" .
+
+ex:Food_Dates a ex:Food ;
+    ex:hasCalories "505" ;
+    ex:hasCarbohydrateContent "134" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "3.6" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "178" .
+
+ex:Food_Doughnuts a ex:Food ;
+    ex:hasCalories "135" ;
+    ex:hasCarbohydrateContent "17" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "7" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "4" ;
+    ex:hasWeight "33" .
+
+ex:Food_Dried__uncooked a ex:Food ;
+    ex:hasCalories "220" ;
+    ex:hasCarbohydrateContent "50" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "75" .
+
+ex:Food_Duck__domestic a ex:Food ;
+    ex:hasCalories "370" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "28" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 1/2 oz." ;
+    ex:hasProteinContent "16" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Eggplant a ex:Food ;
+    ex:hasCalories "30" ;
+    ex:hasCarbohydrateContent "9" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "180" .
+
+ex:Food_Eggs_Scrambled_or_fried a ex:Food ;
+    ex:hasCalories "220" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "16" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2" ;
+    ex:hasProteinContent "13" ;
+    ex:hasSaturatedFatContent "14" ;
+    ex:hasWeight "128" .
+
+ex:Food_Eggs_raw a ex:Food ;
+    ex:hasCalories "150" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "12" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2" ;
+    ex:hasProteinContent "12" ;
+    ex:hasSaturatedFatContent "10" ;
+    ex:hasWeight "100" .
+
+ex:Food_Endive a ex:Food ;
+    ex:hasCalories "10" ;
+    ex:hasCarbohydrateContent "2" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.6" ;
+    ex:hasMeasure "2 oz." ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "57" .
+
+ex:Food_European__as_Muscat__Tokay a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "26" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.7" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "160" .
+
+ex:Food_Evaporated__undiluted a ex:Food ;
+    ex:hasCalories "345" ;
+    ex:hasCarbohydrateContent "24" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "20" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "16" ;
+    ex:hasSaturatedFatContent "18" ;
+    ex:hasWeight "252" .
+
+ex:Food_Farina a ex:Food ;
+    ex:hasCalories "105" ;
+    ex:hasCarbohydrateContent "22" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "8" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "238" .
+
+ex:Food_Figs a ex:Food ;
+    ex:hasCalories "120" ;
+    ex:hasCarbohydrateContent "30" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.9" ;
+    ex:hasMeasure "2" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "42" .
+
+ex:Food_Fish_sticks_fried a ex:Food ;
+    ex:hasCalories "200" ;
+    ex:hasCarbohydrateContent "8" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "5" ;
+    ex:hasProteinContent "19" ;
+    ex:hasSaturatedFatContent "5" ;
+    ex:hasWeight "112" .
+
+ex:Food_Flounder a ex:Food ;
+    ex:hasCalories "200" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "8" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 1/2 oz." ;
+    ex:hasProteinContent "30" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Flour a ex:Food ;
+    ex:hasCalories "460" ;
+    ex:hasCarbohydrateContent "33" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "22" ;
+    ex:hasFiberContent "2.9" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "39" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "110" .
+
+ex:Food_Fortified_milk a ex:Food ;
+    ex:hasCalories "1,373" ;
+    ex:hasCarbohydrateContent "119" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "42" ;
+    ex:hasFiberContent "1.4" ;
+    ex:hasMeasure "6 cups" ;
+    ex:hasProteinContent "89" ;
+    ex:hasSaturatedFatContent "23" ;
+    ex:hasWeight "1,419" .
+
+ex:Food_French_dressing a ex:Food ;
+    ex:hasCalories "60" ;
+    ex:hasCarbohydrateContent "2" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "6" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "2" ;
+    ex:hasWeight "15" .
+
+ex:Food_French_fried a ex:Food ;
+    ex:hasCalories "155" ;
+    ex:hasCarbohydrateContent "20" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "7" ;
+    ex:hasFiberContent "0.4" ;
+    ex:hasMeasure "10 pieces" ;
+    ex:hasProteinContent "-1" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "60" .
+
+ex:Food_Fresh a ex:Food ;
+    ex:hasCalories "55" ;
+    ex:hasCarbohydrateContent "14" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.70" ;
+    ex:hasMeasure "3 med." ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "114" .
+
+ex:Food_Fresh__raw a ex:Food ;
+    ex:hasCalories "35",
+        "65" ;
+    ex:hasCarbohydrateContent "10",
+        "15" ;
+    ex:hasCategory "Fruits A-F",
+        "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.6",
+        "0.8" ;
+    ex:hasMeasure "1 cup",
+        "1 med." ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "114" .
+
+ex:Food_Fresh__raw_figs a ex:Food ;
+    ex:hasCalories "90" ;
+    ex:hasCarbohydrateContent "22" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "3 med." ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "114" .
+
+ex:Food_Fresh__steamed_peas a ex:Food ;
+    ex:hasCalories "70" ;
+    ex:hasCarbohydrateContent "12" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2.2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Fried__breast_or_leg_and_thigh_chicken a ex:Food ;
+    ex:hasCalories "245" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "15" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "25" ;
+    ex:hasSaturatedFatContent "11" ;
+    ex:hasWeight "85" .
+
+ex:Food_Frozen_ a ex:Food ;
+    ex:hasCalories "330" ;
+    ex:hasCarbohydrateContent "78" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.4" ;
+    ex:hasMeasure "6-oz. can" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "210" .
+
+ex:Food_Frozen_peas a ex:Food ;
+    ex:hasCalories "NaN"^^xsd:double ;
+    ex:hasCarbohydrateContent "12" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.8" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Fruit_cake a ex:Food ;
+    ex:hasCalories "105" ;
+    ex:hasCarbohydrateContent "17" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "4" ;
+    ex:hasFiberContent "0.2" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "30" .
+
+ex:Food_Fruit_cocktail__canned a ex:Food ;
+    ex:hasCalories "195" ;
+    ex:hasCarbohydrateContent "50" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.5" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "256" .
+
+ex:Food_Fruit_flavored_soda a ex:Food ;
+    ex:hasCalories "161" ;
+    ex:hasCarbohydrateContent "42" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "12 oz." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "346" .
+
+ex:Food_Fudge a ex:Food ;
+    ex:hasCalories "370" ;
+    ex:hasCarbohydrateContent "80" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "12" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "2 pieces" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "11" ;
+    ex:hasWeight "90" .
+
+ex:Food_Gelatin__made_with_water a ex:Food ;
+    ex:hasCalories "155" ;
+    ex:hasCarbohydrateContent "36" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "239" .
+
+ex:Food_Gin a ex:Food ;
+    ex:hasCalories "70" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 oz." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "28" .
+
+ex:Food_Ginger_ale a ex:Food ;
+    ex:hasCalories "105" ;
+    ex:hasCarbohydrateContent "28" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "12 oz." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "346" .
+
+ex:Food_Gingerbread a ex:Food ;
+    ex:hasCalories "180" ;
+    ex:hasCarbohydrateContent "28" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "7" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "6" ;
+    ex:hasWeight "55" .
+
+ex:Food_Goats__milk a ex:Food ;
+    ex:hasCalories "165" ;
+    ex:hasCarbohydrateContent "11" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "8" ;
+    ex:hasSaturatedFatContent "8" ;
+    ex:hasWeight "244" .
+
+ex:Food_Grape_juice a ex:Food ;
+    ex:hasCalories "160" ;
+    ex:hasCarbohydrateContent "42" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "250" .
+
+ex:Food_Grapefruit__fresh__5__diameter a ex:Food ;
+    ex:hasCalories "50" ;
+    ex:hasCarbohydrateContent "14" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1/2" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "285" .
+
+ex:Food_Grapefruit_juice a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "24" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "250" .
+
+ex:Food_Grapefruit_sections a ex:Food ;
+    ex:hasCalories "170" ;
+    ex:hasCarbohydrateContent "44" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.5" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "250" .
+
+ex:Food_Grapes a ex:Food ;
+    ex:hasCalories "70" ;
+    ex:hasCarbohydrateContent "16" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.8" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "153" .
+
+ex:Food_Ground_lean a ex:Food ;
+    ex:hasCalories "185" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "24" ;
+    ex:hasSaturatedFatContent "9" ;
+    ex:hasWeight "85" .
+
+ex:Food_Haddock a ex:Food ;
+    ex:hasCalories "135" ;
+    ex:hasCarbohydrateContent "6" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "5" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "16" ;
+    ex:hasSaturatedFatContent "4" ;
+    ex:hasWeight "85" .
+
+ex:Food_Halibut a ex:Food ;
+    ex:hasCalories "182" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "8" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 1/2 oz." ;
+    ex:hasProteinContent "26" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Ham__as_ a ex:Food ;
+    ex:hasCalories "170" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "13" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2 oz." ;
+    ex:hasProteinContent "13" ;
+    ex:hasSaturatedFatContent "11" ;
+    ex:hasWeight "57" .
+
+ex:Food_Ham__canned__spiced a ex:Food ;
+    ex:hasCalories "165" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "14" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2 oz." ;
+    ex:hasProteinContent "8" ;
+    ex:hasSaturatedFatContent "12" ;
+    ex:hasWeight "57" .
+
+ex:Food_Ham_pan_broiled a ex:Food ;
+    ex:hasCalories "290" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "22" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "16" ;
+    ex:hasSaturatedFatContent "19" ;
+    ex:hasWeight "85" .
+
+ex:Food_Hamburger a ex:Food ;
+    ex:hasCalories "245" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "17" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "21" ;
+    ex:hasSaturatedFatContent "15" ;
+    ex:hasWeight "85" .
+
+ex:Food_Hard_candies a ex:Food ;
+    ex:hasCalories "90" ;
+    ex:hasCarbohydrateContent "28" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 oz." ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "28" .
+
+ex:Food_Herring a ex:Food ;
+    ex:hasCalories "211" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "13" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 small" ;
+    ex:hasProteinContent "22" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Honey a ex:Food ;
+    ex:hasCalories "120" ;
+    ex:hasCarbohydrateContent "30" ;
+    ex:hasCategory "Jams, Jellies" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2 T." ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "42" .
+
+ex:Food_Hydrogenated_cooking_fat a ex:Food ;
+    ex:hasCalories "665" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "100" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "88" ;
+    ex:hasWeight "100" .
+
+ex:Food_Ice_cream a ex:Food ;
+    ex:hasCalories "250",
+        "300" ;
+    ex:hasCarbohydrateContent "0",
+        "29" ;
+    ex:hasCategory "Dairy products",
+        "Desserts, sweets" ;
+    ex:hasFatContent "0",
+        "18" ;
+    ex:hasFiberContent "0",
+        "10" ;
+    ex:hasMeasure "1 cup",
+        "2 cups" ;
+    ex:hasProteinContent "0",
+        "6" ;
+    ex:hasSaturatedFatContent "12",
+        "16" ;
+    ex:hasWeight "188",
+        "300" .
+
+ex:Food_Ice_milk a ex:Food ;
+    ex:hasCalories "275" ;
+    ex:hasCarbohydrateContent "32" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "9" ;
+    ex:hasSaturatedFatContent "9" ;
+    ex:hasWeight "190" .
+
+ex:Food_Iceberg a ex:Food ;
+    ex:hasCalories "13" ;
+    ex:hasCarbohydrateContent "3" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.5" ;
+    ex:hasMeasure "1/4 head" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Ices a ex:Food ;
+    ex:hasCalories "117" ;
+    ex:hasCarbohydrateContent "48" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "150" .
+
+ex:Food_Jellies a ex:Food ;
+    ex:hasCalories "50" ;
+    ex:hasCarbohydrateContent "13" ;
+    ex:hasCategory "Jams, Jellies" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "20" .
+
+ex:Food_Kale a ex:Food ;
+    ex:hasCalories "45" ;
+    ex:hasCarbohydrateContent "8" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0.9" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "110" .
+
+ex:Food_Kohlrabi a ex:Food ;
+    ex:hasCalories "40" ;
+    ex:hasCarbohydrateContent "9" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.5" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "140" .
+
+ex:Food_Lamb__chop__broiled a ex:Food ;
+    ex:hasCalories "480" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "35" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "4 oz." ;
+    ex:hasProteinContent "24" ;
+    ex:hasSaturatedFatContent "33" ;
+    ex:hasWeight "115" .
+
+ex:Food_Lambs_quarters__steamed a ex:Food ;
+    ex:hasCalories "48" ;
+    ex:hasCarbohydrateContent "7" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "3.2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "150" .
+
+ex:Food_Lard a ex:Food ;
+    ex:hasCalories "992" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "110" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "92" ;
+    ex:hasWeight "110" .
+
+ex:Food_Leg_roasted a ex:Food ;
+    ex:hasCalories "314" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "14" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "20" ;
+    ex:hasSaturatedFatContent "14" ;
+    ex:hasWeight "86" .
+
+ex:Food_Lemon_juice a ex:Food ;
+    ex:hasCalories "30" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "125" .
+
+ex:Food_Lemon_meringue a ex:Food ;
+    ex:hasCalories "300" ;
+    ex:hasCarbohydrateContent "45" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "12" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "10" ;
+    ex:hasWeight "120" .
+
+ex:Food_Lemonade_concentratefrozen a ex:Food ;
+    ex:hasCalories "430" ;
+    ex:hasCarbohydrateContent "112" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "6-oz. can" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "220" .
+
+ex:Food_Lentils a ex:Food ;
+    ex:hasCalories "212" ;
+    ex:hasCarbohydrateContent "38" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2.4" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "15" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "200" .
+
+ex:Food_Lettuce a ex:Food ;
+    ex:hasCalories "14" ;
+    ex:hasCarbohydrateContent "2" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.5" ;
+    ex:hasMeasure "1/4 head" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Lima a ex:Food ;
+    ex:hasCalories "140" ;
+    ex:hasCarbohydrateContent "24" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "3.0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "8" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "160" .
+
+ex:Food_Lima__dry__cooked a ex:Food ;
+    ex:hasCalories "260" ;
+    ex:hasCarbohydrateContent "48" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "16" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "192" .
+
+ex:Food_Limeade_concentrate_frozen a ex:Food ;
+    ex:hasCalories "405" ;
+    ex:hasCarbohydrateContent "108" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "6-oz. can" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "218" .
+
+ex:Food_Lobster a ex:Food ;
+    ex:hasCalories "92" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "aver." ;
+    ex:hasProteinContent "18" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Macaroni a ex:Food ;
+    ex:hasCalories "155" ;
+    ex:hasCarbohydrateContent "32" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "140" .
+
+ex:Food_Mackerel a ex:Food ;
+    ex:hasCalories "155" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "9" ;
+    ex:hasFiberContent "a" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "18" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "85" .
+
+ex:Food_Margarine a ex:Food ;
+    ex:hasCalories "806" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "91" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "76" ;
+    ex:hasWeight "112" .
+
+ex:Food_Margarine__2_pat_or a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "11" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "9" ;
+    ex:hasWeight "14" .
+
+ex:Food_Marshmallows a ex:Food ;
+    ex:hasCalories "98" ;
+    ex:hasCarbohydrateContent "23" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "5" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "30" .
+
+ex:Food_Mayonnaise a ex:Food ;
+    ex:hasCalories "110" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "12" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "5" ;
+    ex:hasWeight "15" .
+
+ex:Food_Milk_chocolate a ex:Food ;
+    ex:hasCalories "290" ;
+    ex:hasCarbohydrateContent "44" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "6" ;
+    ex:hasFiberContent "0.2" ;
+    ex:hasMeasure "2-oz. bar" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "6" ;
+    ex:hasWeight "56" .
+
+ex:Food_Milk_skim a ex:Food ;
+    ex:hasCalories "360" ;
+    ex:hasCarbohydrateContent "52" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 qt." ;
+    ex:hasProteinContent "36" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "984" .
+
+ex:Food_Mince a ex:Food ;
+    ex:hasCalories "340" ;
+    ex:hasCarbohydrateContent "62" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "9" ;
+    ex:hasFiberContent "0.70" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "8" ;
+    ex:hasWeight "135" .
+
+ex:Food_Molasses a ex:Food ;
+    ex:hasCalories "45" ;
+    ex:hasCarbohydrateContent "11" ;
+    ex:hasCategory "Jams, Jellies" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "8" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "20" .
+
+ex:Food_Muffins a ex:Food ;
+    ex:hasCalories "135" ;
+    ex:hasCarbohydrateContent "19" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "5" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "4" ;
+    ex:hasWeight "48" .
+
+ex:Food_Mushrooms_canned a ex:Food ;
+    ex:hasCalories "12" ;
+    ex:hasCarbohydrateContent "4" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "4" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "120" .
+
+ex:Food_Mustard_greens a ex:Food ;
+    ex:hasCalories "30" ;
+    ex:hasCarbohydrateContent "6" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.2" ;
+    ex:hasMeasure "1" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "140" .
+
+ex:Food_Navy__baked_with_pork a ex:Food ;
+    ex:hasCalories "250" ;
+    ex:hasCarbohydrateContent "37" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "6" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "3/4 cup" ;
+    ex:hasProteinContent "11" ;
+    ex:hasSaturatedFatContent "6" ;
+    ex:hasWeight "200" .
+
+ex:Food_Nectar__or_juice a ex:Food ;
+    ex:hasCalories "140" ;
+    ex:hasCarbohydrateContent "36" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "250" .
+
+ex:Food_Noodle a ex:Food ;
+    ex:hasCalories "115" ;
+    ex:hasCarbohydrateContent "13" ;
+    ex:hasCategory "Soups" ;
+    ex:hasFatContent "4" ;
+    ex:hasFiberContent "0.20" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "6" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "250" .
+
+ex:Food_Noodles a ex:Food ;
+    ex:hasCalories "200" ;
+    ex:hasCarbohydrateContent "37" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "2" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "7" ;
+    ex:hasSaturatedFatContent "2" ;
+    ex:hasWeight "160" .
+
+ex:Food_Oatmeal a ex:Food ;
+    ex:hasCalories "150" ;
+    ex:hasCarbohydrateContent "26" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "3" ;
+    ex:hasFiberContent "4.6" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "2" ;
+    ex:hasWeight "236" .
+
+ex:Food_Okra a ex:Food ;
+    ex:hasCalories "32" ;
+    ex:hasCarbohydrateContent "7" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 1/3 cups" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Olive_oil a ex:Food ;
+    ex:hasCalories "125" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "14" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1T." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "14" .
+
+ex:Food_OlivesRipe a ex:Food ;
+    ex:hasCalories "105" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "13" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "10" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "12" ;
+    ex:hasWeight "65" .
+
+ex:Food_Olives_large a ex:Food ;
+    ex:hasCalories "72" ;
+    ex:hasCarbohydrateContent "3" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "0.8" ;
+    ex:hasMeasure "10" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "9" ;
+    ex:hasWeight "65" .
+
+ex:Food_Onions a ex:Food ;
+    ex:hasCalories "80" ;
+    ex:hasCarbohydrateContent "18" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.6" ;
+    ex:hasMeasure "1" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "210" .
+
+ex:Food_Orange_juice a ex:Food ;
+    ex:hasCalories "112" ;
+    ex:hasCarbohydrateContent "25" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.2" ;
+    ex:hasMeasure "8 oz. or" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "250" .
+
+ex:Food_Oranges_3__diameter a ex:Food ;
+    ex:hasCalories "60" ;
+    ex:hasCarbohydrateContent "16" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 med." ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "180" .
+
+ex:Food_Oyster_stew a ex:Food ;
+    ex:hasCalories "125" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "6" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "19" ;
+    ex:hasSaturatedFatContent "1" ;
+    ex:hasWeight "85" .
+
+ex:Food_Oysters a ex:Food ;
+    ex:hasCalories "231" ;
+    ex:hasCarbohydrateContent "236" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "233" ;
+    ex:hasFiberContent "235" ;
+    ex:hasMeasure "6-8 med." ;
+    ex:hasProteinContent "232" ;
+    ex:hasSaturatedFatContent "234" ;
+    ex:hasWeight "230" .
+
+ex:Food_Pancakes_4__diam_ a ex:Food ;
+    ex:hasCalories "250" ;
+    ex:hasCarbohydrateContent "28" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "9" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "4" ;
+    ex:hasProteinContent "7" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "108" .
+
+ex:Food_Papaya a ex:Food ;
+    ex:hasCalories "75" ;
+    ex:hasCarbohydrateContent "18" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.8" ;
+    ex:hasMeasure "1/2 med." ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "200" .
+
+ex:Food_Parsley a ex:Food ;
+    ex:hasCalories "2" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "2 T." ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "50" .
+
+ex:Food_Parsnips a ex:Food ;
+    ex:hasCalories "95" ;
+    ex:hasCarbohydrateContent "22" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "3" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "155" .
+
+ex:Food_Peaches a ex:Food ;
+    ex:hasCalories "200" ;
+    ex:hasCarbohydrateContent "52" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "257" .
+
+ex:Food_Peanut_butter a ex:Food ;
+    ex:hasCalories "300" ;
+    ex:hasCarbohydrateContent "9" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "25" ;
+    ex:hasFiberContent "0.9" ;
+    ex:hasMeasure "1/3 cup" ;
+    ex:hasProteinContent "12" ;
+    ex:hasSaturatedFatContent "17" ;
+    ex:hasWeight "50" .
+
+ex:Food_Peanut_butter__natural a ex:Food ;
+    ex:hasCalories "284" ;
+    ex:hasCarbohydrateContent "8" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "24" ;
+    ex:hasFiberContent "0.9" ;
+    ex:hasMeasure "1/3 cup" ;
+    ex:hasProteinContent "13" ;
+    ex:hasSaturatedFatContent "10" ;
+    ex:hasWeight "50" .
+
+ex:Food_Peanuts a ex:Food ;
+    ex:hasCalories "290" ;
+    ex:hasCarbohydrateContent "9" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "25" ;
+    ex:hasFiberContent "1.2" ;
+    ex:hasMeasure "1/3 cup" ;
+    ex:hasProteinContent "13" ;
+    ex:hasSaturatedFatContent "16" ;
+    ex:hasWeight "50" .
+
+ex:Food_Pears a ex:Food ;
+    ex:hasCalories "195" ;
+    ex:hasCarbohydrateContent "50" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "255" .
+
+ex:Food_Peas a ex:Food ;
+    ex:hasCalories "66" ;
+    ex:hasCarbohydrateContent "13" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Pecans a ex:Food ;
+    ex:hasCalories "343" ;
+    ex:hasCarbohydrateContent "7" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "35" ;
+    ex:hasFiberContent "1.1" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "25" ;
+    ex:hasWeight "52" .
+
+ex:Food_Peppers_Raw__green__sweet a ex:Food ;
+    ex:hasCalories "25" ;
+    ex:hasCarbohydrateContent "6" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.4" ;
+    ex:hasMeasure "1 large" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Peppers_canned a ex:Food ;
+    ex:hasCalories "10" ;
+    ex:hasCarbohydrateContent "2" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 pod" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "38" .
+
+ex:Food_Peppers_with_beef_and_crumbs a ex:Food ;
+    ex:hasCalories "255" ;
+    ex:hasCarbohydrateContent "24" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "9" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 med." ;
+    ex:hasProteinContent "19" ;
+    ex:hasSaturatedFatContent "8" ;
+    ex:hasWeight "150" .
+
+ex:Food_Persimmons a ex:Food ;
+    ex:hasCalories "75" ;
+    ex:hasCarbohydrateContent "20" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1 med." ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "125" .
+
+ex:Food_Pineapple a ex:Food ;
+    ex:hasCalories "95" ;
+    ex:hasCarbohydrateContent "26" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.4" ;
+    ex:hasMeasure "1 large slice" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "122" .
+
+ex:Food_Pineapple_Crushed a ex:Food ;
+    ex:hasCalories "205" ;
+    ex:hasCarbohydrateContent "55" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.7" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "260" .
+
+ex:Food_Pineapple_juice a ex:Food ;
+    ex:hasCalories "120" ;
+    ex:hasCarbohydrateContent "32" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "250" .
+
+ex:Food_Pizza_14__diam_ a ex:Food ;
+    ex:hasCalories "180" ;
+    ex:hasCarbohydrateContent "23" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "6" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 section" ;
+    ex:hasProteinContent "8" ;
+    ex:hasSaturatedFatContent "5" ;
+    ex:hasWeight "75" .
+
+ex:Food_Plain__with_no_icing a ex:Food ;
+    ex:hasCalories "180" ;
+    ex:hasCarbohydrateContent "31" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "5" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "4" ;
+    ex:hasWeight "55" .
+
+ex:Food_Plums a ex:Food ;
+    ex:hasCalories "185" ;
+    ex:hasCarbohydrateContent "50" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.7" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "256" .
+
+ex:Food_Popcorn_salted a ex:Food ;
+    ex:hasCalories "152" ;
+    ex:hasCarbohydrateContent "20" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "7" ;
+    ex:hasFiberContent "0.5" ;
+    ex:hasMeasure "2 cups" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "2" ;
+    ex:hasWeight "28" .
+
+ex:Food_Pork__chop__1_thick a ex:Food ;
+    ex:hasCalories "260" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "21" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 1/2 oz." ;
+    ex:hasProteinContent "16" ;
+    ex:hasSaturatedFatContent "18" ;
+    ex:hasWeight "100" .
+
+ex:Food_Pork_roast a ex:Food ;
+    ex:hasCalories "310" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "24" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "21" ;
+    ex:hasSaturatedFatContent "21" ;
+    ex:hasWeight "85" .
+
+ex:Food_Pork_sausage a ex:Food ;
+    ex:hasCalories "475" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "44" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 1/2 oz." ;
+    ex:hasProteinContent "18" ;
+    ex:hasSaturatedFatContent "40" ;
+    ex:hasWeight "100" .
+
+ex:Food_Pot_pie a ex:Food ;
+    ex:hasCalories "480" ;
+    ex:hasCarbohydrateContent "32" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "28" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 pie" ;
+    ex:hasProteinContent "18" ;
+    ex:hasSaturatedFatContent "25" ;
+    ex:hasWeight "227" .
+
+ex:Food_Potato_chips a ex:Food ;
+    ex:hasCalories "110" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "7" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "10" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "4" ;
+    ex:hasWeight "20" .
+
+ex:Food_Potatoes_Mashed_with_milk_and_butter a ex:Food ;
+    ex:hasCalories "230" ;
+    ex:hasCarbohydrateContent "28" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "12" ;
+    ex:hasFiberContent "0.7" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "11" ;
+    ex:hasWeight "200" .
+
+ex:Food_Potatoes__baked a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "22" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.5" ;
+    ex:hasMeasure "1 med." ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Potatoes__pan_tried a ex:Food ;
+    ex:hasCalories "268" ;
+    ex:hasCarbohydrateContent "33" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "14" ;
+    ex:hasFiberContent "0.40" ;
+    ex:hasMeasure "3/4 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "6" ;
+    ex:hasWeight "100" .
+
+ex:Food_Powdered_milk a ex:Food ;
+    ex:hasCalories "515" ;
+    ex:hasCarbohydrateContent "39" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "28" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "27" ;
+    ex:hasSaturatedFatContent "24" ;
+    ex:hasWeight "103" .
+
+ex:Food_Processed_cheese a ex:Food ;
+    ex:hasCalories "105" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "9" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 oz." ;
+    ex:hasProteinContent "7" ;
+    ex:hasSaturatedFatContent "8" ;
+    ex:hasWeight "28" .
+
+ex:Food_Prune_juice a ex:Food ;
+    ex:hasCalories "170" ;
+    ex:hasCarbohydrateContent "45" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.7" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "240" .
+
+ex:Food_Prunes a ex:Food ;
+    ex:hasCalories "300" ;
+    ex:hasCarbohydrateContent "81" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0.8" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "270" .
+
+ex:Food_Puddings_Sugar a ex:Food ;
+    ex:hasCalories "770" ;
+    ex:hasCarbohydrateContent "199" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "200" .
+
+ex:Food_Puffed_rice a ex:Food ;
+    ex:hasCalories "55" ;
+    ex:hasCarbohydrateContent "12" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "14" .
+
+ex:Food_Puffed_wheat_presweetened a ex:Food ;
+    ex:hasCalories "105" ;
+    ex:hasCarbohydrateContent "26" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.6" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "28" .
+
+ex:Food_Pumpkin_Pie a ex:Food ;
+    ex:hasCalories "265" ;
+    ex:hasCarbohydrateContent "34" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "12" ;
+    ex:hasFiberContent "8" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "11" ;
+    ex:hasWeight "130" .
+
+ex:Food_Radishes a ex:Food ;
+    ex:hasCalories "10" ;
+    ex:hasCarbohydrateContent "2" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0.3" ;
+    ex:hasMeasure "5 small" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "50" .
+
+ex:Food_Raisins a ex:Food ;
+    ex:hasCalories "230" ;
+    ex:hasCarbohydrateContent "82" ;
+    ex:hasCategory "Fruits R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.7" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "88" .
+
+ex:Food_Raspberries a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "25" ;
+    ex:hasCategory "Fruits R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Raw a ex:Food ;
+    ex:hasCalories "54" ;
+    ex:hasCarbohydrateContent "12" ;
+    ex:hasCategory "Fruits R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.9" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "149" .
+
+ex:Food_Raw__2__diameter a ex:Food ;
+    ex:hasCalories "30" ;
+    ex:hasCarbohydrateContent "7" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.2" ;
+    ex:hasMeasure "1" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "60" .
+
+ex:Food_Raw__2_by_2_1_2 a ex:Food ;
+    ex:hasCalories "30" ;
+    ex:hasCarbohydrateContent "6" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.6" ;
+    ex:hasMeasure "1 med." ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "150" .
+
+ex:Food_Raw__3_by_2V a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "25" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1 med." ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "182" .
+
+ex:Food_Raw__diced a ex:Food ;
+    ex:hasCalories "75" ;
+    ex:hasCarbohydrateContent "19" ;
+    ex:hasCategory "Fruits G-P" ;
+    ex:hasFatContent "t'" ;
+    ex:hasFiberContent "0.6" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "140" .
+
+ex:Food_Raw__grated a ex:Food ;
+    ex:hasCalories "45" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "110" .
+
+ex:Food_Raw__green a ex:Food ;
+    ex:hasCalories "22" ;
+    ex:hasCarbohydrateContent "5" ;
+    ex:hasCategory "Vegetables F-P" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "6 small" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "50" .
+
+ex:Food_Raw__red a ex:Food ;
+    ex:hasCalories "57" ;
+    ex:hasCarbohydrateContent "14" ;
+    ex:hasCategory "Fruits R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "5" ;
+    ex:hasMeasure "3/4 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Red_kidney a ex:Food ;
+    ex:hasCalories "230" ;
+    ex:hasCarbohydrateContent "42" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "2.5" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "15" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "260" .
+
+ex:Food_Rhubarb_sweetened a ex:Food ;
+    ex:hasCalories "385" ;
+    ex:hasCarbohydrateContent "98" ;
+    ex:hasCategory "Fruits R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.9" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "270" .
+
+ex:Food_Rice a ex:Food ;
+    ex:hasCalories "748" ;
+    ex:hasCarbohydrateContent "154" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "3" ;
+    ex:hasFiberContent "1.2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "15" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "208" .
+
+ex:Food_Rice_flakes a ex:Food ;
+    ex:hasCalories "115" ;
+    ex:hasCarbohydrateContent "26" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "30" .
+
+ex:Food_Rice_polish a ex:Food ;
+    ex:hasCalories "132" ;
+    ex:hasCarbohydrateContent "28" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "6" ;
+    ex:hasFiberContent "1.2" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "6" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "50" .
+
+ex:Food_Roast a ex:Food ;
+    ex:hasCalories "305" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "14" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "13" ;
+    ex:hasSaturatedFatContent "13" ;
+    ex:hasWeight "85" .
+
+ex:Food_Roast_beef a ex:Food ;
+    ex:hasCalories "390" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "36" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "16" ;
+    ex:hasSaturatedFatContent "35" ;
+    ex:hasWeight "85" .
+
+ex:Food_Roasted_chicken a ex:Food ;
+    ex:hasCalories "290" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "20" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 1/2 oz." ;
+    ex:hasProteinContent "25" ;
+    ex:hasSaturatedFatContent "16" ;
+    ex:hasWeight "100" .
+
+ex:Food_Rolls a ex:Food ;
+    ex:hasCalories "411" ;
+    ex:hasCarbohydrateContent "23" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "12" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "1 large" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "11" ;
+    ex:hasWeight "50" .
+
+ex:Food_Root_beer a ex:Food ;
+    ex:hasCalories "140" ;
+    ex:hasCarbohydrateContent "35" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "12 oz." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "346" .
+
+ex:Food_Roquefort_type a ex:Food ;
+    ex:hasCalories "105" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "9" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 oz." ;
+    ex:hasProteinContent "6" ;
+    ex:hasSaturatedFatContent "8" ;
+    ex:hasWeight "28" .
+
+ex:Food_Rutabagas a ex:Food ;
+    ex:hasCalories "32" ;
+    ex:hasCarbohydrateContent "8" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "1.4" ;
+    ex:hasMeasure "4 cups" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Rye a ex:Food ;
+    ex:hasCalories "55" ;
+    ex:hasCarbohydrateContent "12" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0.10" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "1" ;
+    ex:hasWeight "23" .
+
+ex:Food_Safflower_seed_oil a ex:Food ;
+    ex:hasCalories "125" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "14" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "14" .
+
+ex:Food_Salmon a ex:Food ;
+    ex:hasCalories "120" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "5" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "17" ;
+    ex:hasSaturatedFatContent "1" ;
+    ex:hasWeight "85" .
+
+ex:Food_Salt_pork a ex:Food ;
+    ex:hasCalories "470" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "55" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2 oz." ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "NaN"^^xsd:double ;
+    ex:hasWeight "60" .
+
+ex:Food_Sardines a ex:Food ;
+    ex:hasCalories "180" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "9" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "22" ;
+    ex:hasSaturatedFatContent "4" ;
+    ex:hasWeight "85" .
+
+ex:Food_Sauerkraut a ex:Food ;
+    ex:hasCalories "32" ;
+    ex:hasCarbohydrateContent "7" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "150" .
+
+ex:Food_Scalloped_with_cheese_potatoes a ex:Food ;
+    ex:hasCalories "145" ;
+    ex:hasCarbohydrateContent "14" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "8" ;
+    ex:hasFiberContent "0.40" ;
+    ex:hasMeasure "3/4 cup" ;
+    ex:hasProteinContent "6" ;
+    ex:hasSaturatedFatContent "7" ;
+    ex:hasWeight "100" .
+
+ex:Food_Scallops a ex:Food ;
+    ex:hasCalories "104" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "8" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 1/2 oz." ;
+    ex:hasProteinContent "18" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Sesame_seeds a ex:Food ;
+    ex:hasCalories "280" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "24" ;
+    ex:hasFiberContent "3.1" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "9" ;
+    ex:hasSaturatedFatContent "13" ;
+    ex:hasWeight "50" .
+
+ex:Food_Shad a ex:Food ;
+    ex:hasCalories "170" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "20" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "85" .
+
+ex:Food_Shoulder__braised a ex:Food ;
+    ex:hasCalories "285" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "23" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "18" ;
+    ex:hasSaturatedFatContent "21" ;
+    ex:hasWeight "85" .
+
+ex:Food_Shredded_wheat_biscuit a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "23" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0.70" ;
+    ex:hasMeasure "1" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "28" .
+
+ex:Food_Shrimp a ex:Food ;
+    ex:hasCalories "110" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "23" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "85" .
+
+ex:Food_Soda__2_1_2_square a ex:Food ;
+    ex:hasCalories "45" ;
+    ex:hasCarbohydrateContent "8" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "2" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "11" .
+
+ex:Food_Soybeans a ex:Food ;
+    ex:hasCalories "260" ;
+    ex:hasCarbohydrateContent "20" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "11" ;
+    ex:hasFiberContent "3.2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "22" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "200" .
+
+ex:Food_Spaghetti_with_meat_sauce a ex:Food ;
+    ex:hasCalories "285" ;
+    ex:hasCarbohydrateContent "35" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "0.50" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "13" ;
+    ex:hasSaturatedFatContent "6" ;
+    ex:hasWeight "250" .
+
+ex:Food_Spanish_rice a ex:Food ;
+    ex:hasCalories "217" ;
+    ex:hasCarbohydrateContent "40" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "4" ;
+    ex:hasFiberContent "1.20" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "250" .
+
+ex:Food_Spinach a ex:Food ;
+    ex:hasCalories "26" ;
+    ex:hasCarbohydrateContent "3" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Split_cooked_peas a ex:Food ;
+    ex:hasCalories "115" ;
+    ex:hasCarbohydrateContent "21" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.4" ;
+    ex:hasMeasure "4 cups" ;
+    ex:hasProteinContent "8" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Split_pea_soup a ex:Food ;
+    ex:hasCalories "147" ;
+    ex:hasCarbohydrateContent "25" ;
+    ex:hasCategory "Soups" ;
+    ex:hasFatContent "3" ;
+    ex:hasFiberContent "0.50" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "8" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "250" .
+
+ex:Food_Sponge_cake a ex:Food ;
+    ex:hasCalories "115" ;
+    ex:hasCarbohydrateContent "22" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "2" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 slice" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "2" ;
+    ex:hasWeight "40" .
+
+ex:Food_Squash a ex:Food ;
+    ex:hasCalories "35" ;
+    ex:hasCarbohydrateContent "8" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.6" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "210" .
+
+ex:Food_Stalk_raw a ex:Food ;
+    ex:hasCalories "5" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.3" ;
+    ex:hasMeasure "1 large" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "40" .
+
+ex:Food_Steak a ex:Food ;
+    ex:hasCalories "330" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "27" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "20" ;
+    ex:hasSaturatedFatContent "25" ;
+    ex:hasWeight "85" .
+
+ex:Food_Steak__lean__as_round a ex:Food ;
+    ex:hasCalories "220" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "12" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "24" ;
+    ex:hasSaturatedFatContent "11" ;
+    ex:hasWeight "85" .
+
+ex:Food_Steamed_cabbage a ex:Food ;
+    ex:hasCalories "40" ;
+    ex:hasCarbohydrateContent "9" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.3" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "170" .
+
+ex:Food_Steamed_potatoes_before_peeling a ex:Food ;
+    ex:hasCalories "80" ;
+    ex:hasCarbohydrateContent "19" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.40" ;
+    ex:hasMeasure "1 med." ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Stewed_or_canned a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "26" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "240" .
+
+ex:Food_Strawberries a ex:Food ;
+    ex:hasCalories "242" ;
+    ex:hasCarbohydrateContent "60" ;
+    ex:hasCategory "Fruits R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.3" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "227" .
+
+ex:Food_Strips__from_raw a ex:Food ;
+    ex:hasCalories "20" ;
+    ex:hasCarbohydrateContent "5" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.5" ;
+    ex:hasMeasure "1 mad." ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "50" .
+
+ex:Food_Sunflower_seeds a ex:Food ;
+    ex:hasCalories "280" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "26" ;
+    ex:hasFiberContent "1.9" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "12" ;
+    ex:hasSaturatedFatContent "7" ;
+    ex:hasWeight "50" .
+
+ex:Food_Sweet_potatoes a ex:Food ;
+    ex:hasCalories "155" ;
+    ex:hasCarbohydrateContent "36" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 med." ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "110" .
+
+ex:Food_Swiss a ex:Food ;
+    ex:hasCalories "105" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "8" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 oz." ;
+    ex:hasProteinContent "7" ;
+    ex:hasSaturatedFatContent "7" ;
+    ex:hasWeight "28" .
+
+ex:Food_Swordfish a ex:Food ;
+    ex:hasCalories "180" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "6" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 steak" ;
+    ex:hasProteinContent "27" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Syrup a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "25" ;
+    ex:hasCategory "Jams, Jellies" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2 T." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "40" .
+
+ex:Food_Table__12_2__alcohol_ a ex:Food ;
+    ex:hasCalories "100" ;
+    ex:hasCarbohydrateContent "5" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "120" .
+
+ex:Food_Tangerines a ex:Food ;
+    ex:hasCalories "40" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Fruits R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "I med." ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "114" .
+
+ex:Food_Tapioca_cream_pudding a ex:Food ;
+    ex:hasCalories "335" ;
+    ex:hasCarbohydrateContent "42" ;
+    ex:hasCategory "Desserts, sweets" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "10" ;
+    ex:hasSaturatedFatContent "9" ;
+    ex:hasWeight "250" .
+
+ex:Food_Tea a ex:Food ;
+    ex:hasCalories "4" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "230" .
+
+ex:Food_Thousand_Island_sauce a ex:Food ;
+    ex:hasCalories "75" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "8" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "15" .
+
+ex:Food_Tomato_catsup a ex:Food ;
+    ex:hasCalories "15" ;
+    ex:hasCarbohydrateContent "4" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "17" .
+
+ex:Food_Tomato_juice a ex:Food ;
+    ex:hasCalories "50" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.6" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "240" .
+
+ex:Food_Tomato_soup a ex:Food ;
+    ex:hasCalories "175" ;
+    ex:hasCarbohydrateContent "22" ;
+    ex:hasCategory "Soups" ;
+    ex:hasFatContent "7" ;
+    ex:hasFiberContent "0.50" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "6" ;
+    ex:hasSaturatedFatContent "6" ;
+    ex:hasWeight "245" .
+
+ex:Food_Tomatoes a ex:Food ;
+    ex:hasCalories "50" ;
+    ex:hasCarbohydrateContent "9" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "240" .
+
+ex:Food_Tuna a ex:Food ;
+    ex:hasCalories "170" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Fish, Seafood" ;
+    ex:hasFatContent "7" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "25" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "85" .
+
+ex:Food_Turkey a ex:Food ;
+    ex:hasCalories "265" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "15" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 1/2 oz." ;
+    ex:hasProteinContent "27" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_Turnip_greens a ex:Food ;
+    ex:hasCalories "45" ;
+    ex:hasCarbohydrateContent "8" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "1.8" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "145" .
+
+ex:Food_Turnips__steamed a ex:Food ;
+    ex:hasCalories "40" ;
+    ex:hasCarbohydrateContent "9" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.8" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "155" .
+
+ex:Food_Veal a ex:Food ;
+    ex:hasCalories "185" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "9" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "23" ;
+    ex:hasSaturatedFatContent "8" ;
+    ex:hasWeight "85" .
+
+ex:Food_Vegetable a ex:Food ;
+    ex:hasCalories "80" ;
+    ex:hasCarbohydrateContent "14" ;
+    ex:hasCategory "Soups" ;
+    ex:hasFatContent "2" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "2" ;
+    ex:hasWeight "250" .
+
+ex:Food_Waffles a ex:Food ;
+    ex:hasCalories "240" ;
+    ex:hasCarbohydrateContent "30" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "9" ;
+    ex:hasFiberContent "0.10" ;
+    ex:hasMeasure "1" ;
+    ex:hasProteinContent "8" ;
+    ex:hasSaturatedFatContent "1" ;
+    ex:hasWeight "75" .
+
+ex:Food_Walnuts a ex:Food ;
+    ex:hasCalories "325" ;
+    ex:hasCarbohydrateContent "8" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "32" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "7" ;
+    ex:hasSaturatedFatContent "7" ;
+    ex:hasWeight "50" .
+
+ex:Food_Watercress_stems__raw a ex:Food ;
+    ex:hasCalories "9" ;
+    ex:hasCarbohydrateContent "1" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.3" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "50" .
+
+ex:Food_Watermelon a ex:Food ;
+    ex:hasCalories "120" ;
+    ex:hasCarbohydrateContent "29" ;
+    ex:hasCategory "Fruits R-Z" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "3.6" ;
+    ex:hasMeasure "1 wedge" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "925" .
+
+ex:Food_Wheat__all_purpose_ a ex:Food ;
+    ex:hasCalories "400" ;
+    ex:hasCarbohydrateContent "84" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0.3" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "12" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "110" .
+
+ex:Food_Wheat__cooked a ex:Food ;
+    ex:hasCalories "275" ;
+    ex:hasCarbohydrateContent "35" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "4.40" ;
+    ex:hasMeasure "3/4 cup" ;
+    ex:hasProteinContent "12" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "200" .
+
+ex:Food_Wheat__pancakes_4__diam_ a ex:Food ;
+    ex:hasCalories "250" ;
+    ex:hasCarbohydrateContent "28" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "9" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "4" ;
+    ex:hasProteinContent "7" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "108" .
+
+ex:Food_Wheat__whole_ a ex:Food ;
+    ex:hasCalories "390" ;
+    ex:hasCarbohydrateContent "79" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "2" ;
+    ex:hasFiberContent "2.8" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "13" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "120" .
+
+ex:Food_Wheat_germ a ex:Food ;
+    ex:hasCalories "245" ;
+    ex:hasCarbohydrateContent "34" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "7" ;
+    ex:hasFiberContent "2.50" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "17" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "68" .
+
+ex:Food_Wheat_germ_cereal_toasted a ex:Food ;
+    ex:hasCalories "260" ;
+    ex:hasCarbohydrateContent "36" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "7" ;
+    ex:hasFiberContent "2.50" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "20" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "65" .
+
+ex:Food_Wheat_meal_cereal_unrefined a ex:Food ;
+    ex:hasCalories "103" ;
+    ex:hasCarbohydrateContent "25" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0.70" ;
+    ex:hasMeasure "3/4 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "30" .
+
+ex:Food_White a ex:Food ;
+    ex:hasCalories "692" ;
+    ex:hasCarbohydrateContent "150" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0.3" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "14" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "191" .
+
+ex:Food_White__20_slices__or a ex:Food ;
+    ex:hasCalories "1,225" ;
+    ex:hasCarbohydrateContent "229" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "15" ;
+    ex:hasFiberContent "9.00" ;
+    ex:hasMeasure "1-lb. loaf" ;
+    ex:hasProteinContent "39" ;
+    ex:hasSaturatedFatContent "12" ;
+    ex:hasWeight "454" .
+
+ex:Food_Whole_wheat a ex:Food ;
+    ex:hasCalories "1,100",
+        "55" ;
+    ex:hasCarbohydrateContent "11",
+        "216" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "1",
+        "14" ;
+    ex:hasFiberContent "0.31",
+        "67.50" ;
+    ex:hasMeasure "1 slice",
+        "1-lb. loaf" ;
+    ex:hasProteinContent "2",
+        "48" ;
+    ex:hasSaturatedFatContent "0",
+        "10" ;
+    ex:hasWeight "23",
+        "454" .
+
+ex:Food_Wines a ex:Food ;
+    ex:hasCalories "164" ;
+    ex:hasCarbohydrateContent "9" ;
+    ex:hasCategory "Drinks,Alcohol, Beverages" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "t" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "120" .
+
+ex:Food_Winter__mashed a ex:Food ;
+    ex:hasCalories "95" ;
+    ex:hasCarbohydrateContent "23" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "2.6" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "200" .
+
+ex:Food_Yolks a ex:Food ;
+    ex:hasCalories "120" ;
+    ex:hasCarbohydrateContent "t" ;
+    ex:hasCategory "Fats, Oils, Shortenings" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2" ;
+    ex:hasProteinContent "6" ;
+    ex:hasSaturatedFatContent "8" ;
+    ex:hasWeight "34" .
+
+ex:Food__1_2_cup_ice_cream_ a ex:Food ;
+    ex:hasCalories "690" ;
+    ex:hasCarbohydrateContent "70" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "24" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2 cups" ;
+    ex:hasProteinContent "24" ;
+    ex:hasSaturatedFatContent "22" ;
+    ex:hasWeight "540" .
+
+ex:Food__cornstarch_ a ex:Food ;
+    ex:hasCalories "275" ;
+    ex:hasCarbohydrateContent "40" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "10" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "9" ;
+    ex:hasSaturatedFatContent "9" ;
+    ex:hasWeight "248" .
+
+ex:Food_chicken a ex:Food ;
+    ex:hasCalories "185" ;
+    ex:hasCarbohydrateContent "0" ;
+    ex:hasCategory "Meat, Poultry" ;
+    ex:hasFatContent "9" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "3 oz." ;
+    ex:hasProteinContent "23" ;
+    ex:hasSaturatedFatContent "7" ;
+    ex:hasWeight "85" .
+
+ex:Food_chicken_soup a ex:Food ;
+    ex:hasCalories "75" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Soups" ;
+    ex:hasFatContent "2" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "2" ;
+    ex:hasWeight "250" .
+
+ex:Food_coconut_sweetened a ex:Food ;
+    ex:hasCalories "274" ;
+    ex:hasCarbohydrateContent "26" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "20" ;
+    ex:hasFiberContent "2" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "19" ;
+    ex:hasWeight "50" .
+
+ex:Food_cooked_or_canned a ex:Food ;
+    ex:hasCalories "170" ;
+    ex:hasCarbohydrateContent "41" ;
+    ex:hasCategory "Vegetables A-E" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1.6" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "5" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "200" .
+
+ex:Food_figs_Canned_with_syrup_ a ex:Food ;
+    ex:hasCalories "130" ;
+    ex:hasCarbohydrateContent "32" ;
+    ex:hasCategory "Fruits A-F" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "3" ;
+    ex:hasProteinContent "1" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "115" .
+
+ex:Food_heated_peas a ex:Food ;
+    ex:hasCalories "53" ;
+    ex:hasCarbohydrateContent "10" ;
+    ex:hasCategory "Vegetables R-Z" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "100" .
+
+ex:Food_of_refined_flour a ex:Food ;
+    ex:hasCalories "115" ;
+    ex:hasCarbohydrateContent "20" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "2" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1" ;
+    ex:hasProteinContent "3" ;
+    ex:hasSaturatedFatContent "2" ;
+    ex:hasWeight "38" .
+
+ex:Food_or_whipping a ex:Food ;
+    ex:hasCalories "430" ;
+    ex:hasCarbohydrateContent "3" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "44" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "2" ;
+    ex:hasSaturatedFatContent "27" ;
+    ex:hasWeight "119" .
+
+ex:Food_preserves a ex:Food ;
+    ex:hasCalories "55" ;
+    ex:hasCarbohydrateContent "14" ;
+    ex:hasCategory "Jams, Jellies" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "t" ;
+    ex:hasMeasure "1 T." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "20" .
+
+ex:Food_roasted_and_salted a ex:Food ;
+    ex:hasCalories "439" ;
+    ex:hasCarbohydrateContent "13" ;
+    ex:hasCategory "Seeds and Nuts" ;
+    ex:hasFatContent "40" ;
+    ex:hasFiberContent "1.8" ;
+    ex:hasMeasure "1/2 cup" ;
+    ex:hasProteinContent "13" ;
+    ex:hasSaturatedFatContent "31" ;
+    ex:hasWeight "70" .
+
+ex:Food_skim__instant a ex:Food ;
+    ex:hasCalories "290" ;
+    ex:hasCarbohydrateContent "42" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 1/3 cups" ;
+    ex:hasProteinContent "30" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "85" .
+
+ex:Food_skim__milk a ex:Food ;
+    ex:hasCalories "128" ;
+    ex:hasCarbohydrateContent "13" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "4" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "18" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "250" .
+
+ex:Food_skim__non_instant a ex:Food ;
+    ex:hasCalories "290" ;
+    ex:hasCarbohydrateContent "42" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "1" ;
+    ex:hasMeasure "2/3 cup" ;
+    ex:hasProteinContent "30" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "85" .
+
+ex:Food_table_blends_sugar a ex:Food ;
+    ex:hasCalories "110" ;
+    ex:hasCarbohydrateContent "29" ;
+    ex:hasCategory "Jams, Jellies" ;
+    ex:hasFatContent "0" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "2 T." ;
+    ex:hasProteinContent "0" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "40" .
+
+ex:Food_uncreamed a ex:Food ;
+    ex:hasCalories "195" ;
+    ex:hasCarbohydrateContent "6" ;
+    ex:hasCategory "Dairy products" ;
+    ex:hasFatContent "t" ;
+    ex:hasFiberContent "0" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "38" ;
+    ex:hasSaturatedFatContent "t" ;
+    ex:hasWeight "225" .
+
+ex:Food_whole_wheat a ex:Food ;
+    ex:hasCalories "102" ;
+    ex:hasCarbohydrateContent "20" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "1" ;
+    ex:hasFiberContent "0.1" ;
+    ex:hasMeasure "1" ;
+    ex:hasProteinContent "4" ;
+    ex:hasSaturatedFatContent "0" ;
+    ex:hasWeight "40" .
+
+ex:Food_with_tomatoes_and_cheese a ex:Food ;
+    ex:hasCalories "210" ;
+    ex:hasCarbohydrateContent "36" ;
+    ex:hasCategory "Breads, cereals, fastfood,grains" ;
+    ex:hasFatContent "5" ;
+    ex:hasFiberContent "0.50" ;
+    ex:hasMeasure "1 cup" ;
+    ex:hasProteinContent "6" ;
+    ex:hasSaturatedFatContent "3" ;
+    ex:hasWeight "250" .
+

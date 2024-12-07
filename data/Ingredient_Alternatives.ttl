@@ -1,0 +1,148 @@
+@prefix ex: <http://www.semanticweb.org/pooja/ontologies/2024/10/deliverable2#> .
+
+ex:Ingredient_Beef a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Chicken .
+
+ex:Ingredient_Bread a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Whole_Grain_Bread .
+
+ex:Ingredient_Butter a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Olive_Oil .
+
+ex:Ingredient_Candy a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Dried_Fruit .
+
+ex:Ingredient_Canned_Soup a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Homemade_Soup .
+
+ex:Ingredient_Cheese a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Nutritional_Yeast .
+
+ex:Ingredient_Corn_Syrup a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Maple_Syrup .
+
+ex:Ingredient_Crackers a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Whole_Grain_Crackers .
+
+ex:Ingredient_Cream a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Coconut_Cream .
+
+ex:Ingredient_Energy_Drinks a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Herbal_Tea .
+
+ex:Ingredient_Flour a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Whole_Wheat_Flour .
+
+ex:Ingredient_Fried_Chicken a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Baked_Chicken .
+
+ex:Ingredient_Granola_Bars a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Homemade_Granola .
+
+ex:Ingredient_Ground_Beef a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Lentils .
+
+ex:Ingredient_Ice_Cream a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Frozen_Yogurt .
+
+ex:Ingredient_Instant_Noodles a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Rice_Noodles .
+
+ex:Ingredient_Ketchup a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Homemade_Tomato_Sauce .
+
+ex:Ingredient_Mayonnaise a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Greek_Yogurt .
+
+ex:Ingredient_Milk a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Almond_Milk .
+
+ex:Ingredient_Pancake_Syrup a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Honey .
+
+ex:Ingredient_Pasta a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Zucchini_Noodles .
+
+ex:Ingredient_Pizza_Crust a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Cauliflower_Crust .
+
+ex:Ingredient_Potato_Chips a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Baked_Veggie_Chips .
+
+ex:Ingredient_Salt a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Herbs___Spices .
+
+ex:Ingredient_Soft_Drinks a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Sparkling_Water .
+
+ex:Ingredient_Sour_Cream a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Greek_Yogurt .
+
+ex:Ingredient_Sugar a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Honey .
+
+ex:Ingredient_White_Chocolate a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Dark_Chocolate .
+
+ex:Ingredient_White_Potatoes a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Sweet_Potatoes .
+
+ex:Ingredient_White_Rice a ex:Ingredient ;
+    ex:hasAlternative ex:Ingredient_Brown_Rice .
+
+ex:Ingredient_Almond_Milk a ex:Ingredient .
+
+ex:Ingredient_Baked_Chicken a ex:Ingredient .
+
+ex:Ingredient_Baked_Veggie_Chips a ex:Ingredient .
+
+ex:Ingredient_Brown_Rice a ex:Ingredient .
+
+ex:Ingredient_Cauliflower_Crust a ex:Ingredient .
+
+ex:Ingredient_Chicken a ex:Ingredient .
+
+ex:Ingredient_Coconut_Cream a ex:Ingredient .
+
+ex:Ingredient_Dark_Chocolate a ex:Ingredient .
+
+ex:Ingredient_Dried_Fruit a ex:Ingredient .
+
+ex:Ingredient_Frozen_Yogurt a ex:Ingredient .
+
+ex:Ingredient_Herbal_Tea a ex:Ingredient .
+
+ex:Ingredient_Herbs___Spices a ex:Ingredient .
+
+ex:Ingredient_Homemade_Granola a ex:Ingredient .
+
+ex:Ingredient_Homemade_Soup a ex:Ingredient .
+
+ex:Ingredient_Homemade_Tomato_Sauce a ex:Ingredient .
+
+ex:Ingredient_Lentils a ex:Ingredient .
+
+ex:Ingredient_Maple_Syrup a ex:Ingredient .
+
+ex:Ingredient_Nutritional_Yeast a ex:Ingredient .
+
+ex:Ingredient_Olive_Oil a ex:Ingredient .
+
+ex:Ingredient_Rice_Noodles a ex:Ingredient .
+
+ex:Ingredient_Sparkling_Water a ex:Ingredient .
+
+ex:Ingredient_Sweet_Potatoes a ex:Ingredient .
+
+ex:Ingredient_Whole_Grain_Bread a ex:Ingredient .
+
+ex:Ingredient_Whole_Grain_Crackers a ex:Ingredient .
+
+ex:Ingredient_Whole_Wheat_Flour a ex:Ingredient .
+
+ex:Ingredient_Zucchini_Noodles a ex:Ingredient .
+
+ex:Ingredient_Greek_Yogurt a ex:Ingredient .
+
+ex:Ingredient_Honey a ex:Ingredient .
+
