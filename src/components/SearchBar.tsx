@@ -12,19 +12,14 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSelectFood }) => {
 
   useEffect(() => {
     const fetchFoods = async () => {
-      console.log('Fetching foods for query:', searchQuery);
       try {
         const response = await axios.post('http://localhost:4000/api/nutrition', { query: searchQuery });
-        console.log('Response from backend:', response.data);
         if (response.data.combinedResults) {
           const uniqueFoods = Array.from(new Set(response.data.combinedResults.map((foodItem: any) => foodItem.foodItem)))
             .map(foodItem => {
               return response.data.combinedResults.find((item: any) => item.foodItem === foodItem);
             });
-          console.log('Filtered foods:', uniqueFoods);
           setFilteredFoods(uniqueFoods);
-        } else {
-          console.error('No combinedResults in response:', response.data);
         }
       } catch (error) {
         console.error('Error fetching food data:', error);
@@ -43,10 +38,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSelectFood }) => {
       <input
         type="text"
         value={searchQuery}
-        onChange={(e) => {
-          console.log('Search query changed:', e.target.value);
-          setSearchQuery(e.target.value);
-        }}
+        onChange={(e) => setSearchQuery(e.target.value)}
         placeholder="Search for food..."
         className="search-bar"
       />
@@ -54,10 +46,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSelectFood }) => {
         {filteredFoods.map((foodItem, index) => (
           <li
             key={`${foodItem.foodItem}-${index}`}
-            onClick={() => {
-              console.log('Food item selected:', foodItem.foodItem);
-              onSelectFood(foodItem.foodItem);
-            }}
+            onClick={() => onSelectFood(foodItem.foodItem)}
             className="food-item"
           >
             {foodItem.foodItem.split('#')[1]} - {foodItem.calories} calories
